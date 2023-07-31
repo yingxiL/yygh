@@ -4,10 +4,14 @@
 	<modelVersion>4.0.0</modelVersion>
 	<modules>
 		<module>common</module>
-		<module>common_util</module>
-		<module>common_utils</module>
 		<module>model</module>
 		<module>service</module>
+		<module>service_hosp</module>
+		<module>service_user</module>
+		<module>service_hosp</module>
+		<module>hospital_manage</module>
+		<module>server_gateway</module>
+		<module>service_client</module>
 	</modules>
 	<parent>
 		<groupId>org.springframework.boot</groupId>
@@ -127,4 +131,12 @@
 		</dependencies>
 	</dependencyManagement>
 
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+			</plugin>
+		</plugins>
+    </build>
 </project>
