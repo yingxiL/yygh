@@ -6,10 +6,6 @@
 		<module>common</module>
 		<module>model</module>
 		<module>service</module>
-		<module>service_hosp</module>
-		<module>service_user</module>
-		<module>service_hosp</module>
-		<module>hospital_manage</module>
 		<module>server_gateway</module>
 		<module>service_client</module>
 	</modules>

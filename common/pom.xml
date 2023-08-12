@@ -13,10 +13,9 @@
     <packaging>pom</packaging>
     <version>1.0</version>
     <modules>
-        <module>common_util</module>
         <module>service_util</module>
         <module>rabbit_util</module>
-        <module>common_util</module>
+        <module>ucommon_util</module>
     </modules>
 
     <dependencies>
@@ -30,7 +29,7 @@
         <dependency>
             <groupId>com.baomidou</groupId>
             <artifactId>mybatis-plus-boot-starter</artifactId>
-            <scope>provided </scope>
+            <scope>provided</scope>
         </dependency>
 
         <!--lombok用来简化实体类：需要安装lombok插件-->
@@ -52,6 +51,15 @@
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter</artifactId>
             <scope>test</scope>
+        </dependency>
+        <!--swagger-->
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger2</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger-ui</artifactId>
         </dependency>
     </dependencies>
 </project>

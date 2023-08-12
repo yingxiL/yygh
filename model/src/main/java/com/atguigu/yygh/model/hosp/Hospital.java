@@ -27,11 +27,11 @@ public class Hospital extends BaseMongoEntity {
 	
 	@ApiModelProperty(value = "医院编号")
 	@Indexed(unique = true) //唯一索引
-	private String hoscode;
+	private String hosCode;
 
 	@ApiModelProperty(value = "医院名称")
 	@Indexed //普通索引
-	private String hosname;
+	private String hosName;
 
 	@ApiModelProperty(value = "医院类型")
 	private String hostype;

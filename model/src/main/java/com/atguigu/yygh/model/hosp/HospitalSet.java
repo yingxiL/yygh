@@ -20,7 +20,6 @@ import lombok.Data;
 public class HospitalSet extends BaseEntity {
 	
 	private static final long serialVersionUID = 1L;
-
 	@ApiModelProperty(value = "医院名称")
 	@TableField("hosname")
 	private String hosname;
